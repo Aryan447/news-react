@@ -31,7 +31,7 @@ const App = () => {
   return (
     <>
       <Navbar onCategoryChange={handleCategoryChange} />
-      <h1>NEWS AT A GLANCE</h1>
+      <h1 className='font-inter items-center text-center pt-3 text-2xl' >NEWS AT A GLANCE</h1>
       {isLoading ? (
         <img className='loadingIcon' src={loadingIcon} alt="Loading" />
       ) : (
