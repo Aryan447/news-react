@@ -67,11 +67,11 @@
 @media screen and (max-width: 768px) {
     .navbar {
         display: flex;
-        height: 8vh;
+        height: 7vh;
     }
 
     .navbarLogo {
-        width: 40vw;
+        width: 35vw;
     }
 
     .navbarText .aboutText {
@@ -88,7 +88,7 @@
         width: 4.75vh;
         height: 4.75vh;
         left: 80vw;
-        top: 1.55vh;
+        top: 1.1vh;
         background: rgba(49, 49, 49, 0.25);
         /* box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.25); */
         border-radius: 12.5px;
@@ -103,7 +103,7 @@
     .navbarText .phoneMenuIcon {
         display: flex;
         align-items: center;
-        margin-left: 25vw;
+        margin-left: 30vw;
     }
 
     .navbarText .phoneMenuIcon img {
@@ -139,113 +139,5 @@
         font-size: 5vw;
         margin-top: -1.5vh;
         margin-bottom: 2vh;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .navbarLogo {
-        width: 30vw;
-    }
-    .navbarText .aboutText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 4vw;
-    }
-    
-    .navbarText .contactText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 4vw;
-    }
-
-    .navbar .categorySelection {
-        position: absolute;
-        width: 30vw;
-        height: 5vh;
-        left: 68vw;
-        top: 2.5vh;
-        border-radius: 19.5px;
-        text-align: center;
-        font-family: 'Inter';
-        font-weight: bold;
-        font-size: 3.3vw;
-    }
-    
-}
-
-@media screen and (max-width: 1600px) {
-    .navbarLogo {
-        width: 30vw;
-    }
-    .navbarText .aboutText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 3vw;
-    }
-    
-    .navbarText .contactText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 3vw;
-    }
-    .navbar .categorySelection {
-        position: absolute;
-        width: 20vw;
-        height: 5vh;
-        left: 78vw;
-        top: 2.5vh;
-        border-radius: 19.5px;
-        text-align: center;
-        font-family: 'Inter';
-        font-weight: bold;
-        font-size: 2.3vw;
-    }
-}
-
-
-@media screen and (max-width: 1536px){
-    .navbarLogo {
-        width: 20vw;
-    }
-    .navbarText .aboutText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 3vw;
-    }
-    
-    .navbarText .contactText {
-        text-decoration: none;
-        font-family: 'Inter';
-        font-weight: bold;
-        color: black;
-        margin-left: 2vw;
-        font-size: 3vw;
-    }
-    .navbar .categorySelection {
-        position: absolute;
-        width: 20vw;
-        height: 5vh;
-        left: 78vw;
-        top: 2.5vh;
-        border-radius: 19.5px;
-        text-align: center;
-        font-family: 'Inter';
-        font-weight: bold;
-        font-size: 2.3vw;
     }
 }
