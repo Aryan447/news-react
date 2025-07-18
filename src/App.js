@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => {
   const [newsList, setNewsList] = useState([]);
-  const [category, setCategory] = useState('bbc');
+  const [category, setCategory] = useState('all');
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const App = () => {
             try {
                 const API_KEY = '5c7c587946a24a8490ffd149a12dc35c';
                 const baseURL = 'https://newsapi.org/v2/top-headlines';
-                const country = 'in';
+                const country = 'us';
                 const source = 'bbc-news';
 
                 let url;

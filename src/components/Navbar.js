@@ -16,8 +16,8 @@ export default function Navbar({ onCategoryChange }) {
                     <select
                         className='categorySelection appearance-none absolute w-11 xl:w-60 h-11 xl:h-10 right-7 xl:right-10 top-2.4 xl:top-3 bg-gray-500 bg-opacity-20 rounded-xl border-none text-center font-inter font-bold text-xs xl:text-lg backdrop-blur-md'
                         onChange={onCategoryChange}>
-                        <option value="bbc">BBC News</option>
                         <option value="all">All</option>
+                        <option value="bbc">BBC News</option>
                         <option value="business">Business</option>
                         <option value="entertainment">Entertainment</option>
                         <option value="general">General</option>
